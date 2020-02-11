@@ -7,6 +7,7 @@ A dataset of real time pictures were captured which included some basic obstacle
 
 ## Usage
 The file "DetectStaircase.m" is the main file to be executed.
+
 However, run the function files: "bfltGray", "bfilter2" and "DistBetween2Segment" first and then the main file.
 (Make sure that the pcitures and the files are in the same path)
 
