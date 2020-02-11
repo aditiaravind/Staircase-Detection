@@ -4,6 +4,13 @@ This is an image processing project to discern the presence/absence of a stairca
 
 A dataset of real time pictures were captured which included some basic obstacles like staircase, cartons etc. The images were taken at an interval of 2 seconds to test the efficiency of the detection process.
 
+
+## Usage
+The file "DetectStaircase.m" is the main file to be executed.
+However, run the function files: "bfltGray", "bfilter2" and "DistBetween2Segment" first and then the main file.
+(Make sure that the pcitures and the files are in the same path)
+
+
 ### Following are the filtering techniques used and a brief description
 
 1. Gray-scale: The RGB images are first converted to gray-scale (black and white) so as to aid better in the object detection. 
@@ -20,10 +27,13 @@ A dataset of real time pictures were captured which included some basic obstacle
 ~ The length of the lines is first computed using the coordinates in point 1 and point 2 and the corresponding line is plotted only if its length is greater than 15 pixels. 
 ~ The longest lines present in the images are highlighted.
 
+
 ## Requirements
 
 This is a completely MATLAB code. You'll need the software to run the code. Alternatively you can access MATLAB online with a MathWorks account.
 Soon, this will be implemented in Python as well
+
+
 
 
 
